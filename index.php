@@ -6,20 +6,10 @@
     <title>Página de Exemplo PHP</title>
 </head>
 <body>
-    <h1>Data e Hora Atuais</h1>
-    <?php
-        date_default_timezone_set('America/Sao_Paulo'); // Define o fuso horário
+    <h1>Pagina PHP</h1>
 
-        $data_hora_atual = date('d/m/Y H:i:s');
-        echo "<p>A data e hora atuais são: " . $data_hora_atual . "</p>";
-
-        // Outros exemplos de formatação
-        $data_atual = date('d/m/Y');
-        echo "<p>A data atual é: " . $data_atual . "</p>";
-
-        $hora_atual = date('H:i:s');
-        echo "<p>A hora atual é: " . $hora_atual . "</p>";
-    ?>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam officia numquam necessitatibus deleniti nesciunt dignissimos, temporibus optio, minima itaque commodi voluptatum molestias fugiat perferendis doloremque, magni laborum aperiam consectetur dolore!</p>
+    
 </body>
 </html>
 
